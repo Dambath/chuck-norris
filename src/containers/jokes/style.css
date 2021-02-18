@@ -1,0 +1,11 @@
+button {  
+    border: 2px solid black;
+    background-color: rgba(0, 0, 255, .2);
+    margin: 20px auto 30px;
+    cursor: pointer;
+}
+div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
