@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Joke from '../../components/card/index'
 import '../jokes/style.css'
-import { Select } from 'antd'
 import chuckImage from '../../chuck.jpe'
 
 function Main() {
