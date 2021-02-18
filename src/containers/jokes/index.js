@@ -3,6 +3,7 @@ import axios from 'axios'
 import Joke from '../../components/card/index'
 import '../jokes/style.css'
 import { Select } from 'antd'
+import chuckImage from '../../chuck.jpe'
 const {Option} = Select
 
 function Main() {
@@ -29,7 +30,7 @@ function Main() {
 
     return (
         <div>
-            <img src='http://vashnarkolog.com/wp-content/uploads/f/6/7/f6761e72bb7db954662e4c323be09f4e.jpe' style={{width: '100%',height: '300px', margin: '0 auto 15px'}}/>
+            <img src={chuckImage} style={{width: '100%',height: '300px', margin: '0 auto 15px'}}/>
             <button style={{fontSize: '30px', fontWeight: '600'}} onClick={generateJoke}>Generate joke</button>
             {jokesItems}
         </div>
